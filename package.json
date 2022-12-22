@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "build:win": "npx pkg ./app.js -c package.json -t node14-win-x64"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
@@ -18,12 +17,5 @@
     "nodemon": "^2.0.20",
     "tesseract.js": "^4.0.1",
     "uuid": "^9.0.0"
-  },
-  "pkg": {
-    "assets": [],
-    "targets": [
-      "node14-win-x64"
-    ],
-    "outputPath": "./dist"
   }
 }
