@@ -17,6 +17,10 @@ app.use((req, res, next) => {
   next();
 });
 
+app.post("/", async (req, res, next) => {
+  return res.json({ massage: "Hello world" });
+});
+
 app.post("/", fileUploade.array("file"), async (req, res, next) => {
   const folderPath = "./upload/images";
   const dir = "./translates";
