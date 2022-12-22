@@ -25,14 +25,14 @@ app.post("/", fileUploade.array("file"), async (req, res, next) => {
   const folderPath = "./upload/images";
   const dir = "./translates";
   let textData = "";
-  fs.writeFileSync("./translates/translate.txt", "");
-  try {
-    if (!fs.existsSync(dir)) {
-      fs.mkdirSync(dir);
-    }
-  } catch (err) {
-    throw new Error(err);
-  }
+  // fs.writeFileSync("./translates/translate.txt", "");
+  // try {
+  //   if (!fs.existsSync(dir)) {
+  //     fs.mkdirSync(dir);
+  //   }
+  // } catch (err) {
+  //   throw new Error(err);
+  // }
 
   // Read the contents of the folder
   for (let fileNumber = 0; fileNumber < req.files.length; fileNumber++) {
@@ -43,21 +43,11 @@ app.post("/", fileUploade.array("file"), async (req, res, next) => {
 
     Tesseract.recognize(file.path)
       .then(async ({ data: { text } }) => {
-        fs.appendFileSync("./translates/" + nameFile + ".txt", text);
-        fs.appendFileSync("./translates/translate.txt", nameFile + ":\n", function (err) {
-          if (err) throw err;
-        });
-        await fs.appendFileSync("./translates/translate.txt", text, function (err) {
-          if (err) throw err;
-          console.log("Saved!");
-        });
-        await fs.appendFileSync("./translates/translate.txt", "\n\n", function (err) {
-          if (err) throw err;
-          console.log("Saved!");
-        });
+        textData += nameFile + ":\n";
+        textData += text + "\n\n";
 
         await fs.unlink(file.path, (err) => {});
-        textData = await fs.readFileSync("./translates/translate.txt", "utf8");
+        // textData = await fs.readFileSync("./translates/translate.txt", "utf8");
       })
       .then(async () => {
         if (fileNumber === req.files.length - 1) return await res.json({ massage: textData });
