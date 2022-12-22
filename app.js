@@ -17,7 +17,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.post("/", async (req, res, next) => {
+app.get("/", async (req, res, next) => {
   return res.json({ massage: "Hello world" });
 });
 

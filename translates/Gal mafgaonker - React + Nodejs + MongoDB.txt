@@ -1,0 +1,16 @@
+~ Certificate no: UC-56bd8b4c-b581-4845-9966-9c71ac50d26a
+
+U dem Certificate url: ude.my/UC-56bd8b4c-b581-4845-9966-9c71ac50d26a
+Reference Number: 0004
+
+CERTIFICATE OF COMPLETION
+
+MongoDB - The MERN
+
+Fullstack Guid
+
+Instructors Academind by Maximilian Schwarzmiiller, Maximilian Schwarzmiiller, Manuel Lorenz
+
+Date Feb. 28,2022
+
+Length 19 total hours

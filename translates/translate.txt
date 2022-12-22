@@ -1,0 +1,39 @@
+צילום מסך 2022-12-21 224024:
+1. After setting request method to POST, click to the 'body’ tab,
+
+2. Select form-data. At first line, you'll see text boxes named key and value. Write ‘image’ to the
+key. You'll see value type which is set to ‘text’ as default. Make it File and upload your file.
+
+3. Then select 'raw’ and paste your JSON file. Also, just next to the binary choice, you'll see ‘Text’
+is clicked. Make it JSON.
+
+
+צילום מסך 2022-12-21 224024:
+1. After setting request method to POST, click to the 'body’ tab,
+
+2. Select form-data. At first line, you'll see text boxes named key and value. Write ‘image’ to the
+key. You'll see value type which is set to ‘text’ as default. Make it File and upload your file.
+
+3. Then select 'raw’ and paste your JSON file. Also, just next to the binary choice, you'll see ‘Text’
+is clicked. Make it JSON.
+
+
+Gal mafgaonker - React + Nodejs + MongoDB:
+~ Certificate no: UC-56bd8b4c-b581-4845-9966-9c71ac50d26a
+
+U dem Certificate url: ude.my/UC-56bd8b4c-b581-4845-9966-9c71ac50d26a
+Reference Number: 0004
+
+CERTIFICATE OF COMPLETION
+
+MongoDB - The MERN
+
+Fullstack Guid
+
+Instructors Academind by Maximilian Schwarzmiiller, Maximilian Schwarzmiiller, Manuel Lorenz
+
+Date Feb. 28,2022
+
+Length 19 total hours
+
+

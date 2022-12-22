@@ -1,0 +1,14 @@
+1. After setting request method to POST, click to the 'body’ tab,
+
+2. Select form-data. At first line, you'll see text boxes named key and value. Write ‘image’ to the
+key. You'll see value type which is set to ‘text’ as default. Make it File and upload your file.
+
+3. Then select 'raw’ and paste your JSON file. Also, just next to the binary choice, you'll see ‘Text’
+is clicked. Make it JSON.
+1. After setting request method to POST, click to the 'body’ tab,
+
+2. Select form-data. At first line, you'll see text boxes named key and value. Write ‘image’ to the
+key. You'll see value type which is set to ‘text’ as default. Make it File and upload your file.
+
+3. Then select 'raw’ and paste your JSON file. Also, just next to the binary choice, you'll see ‘Text’
+is clicked. Make it JSON.
